@@ -24,6 +24,7 @@ class ProfileController
      *         @OA\Property(
      *             type="object",
      *             property="data",
+     *             description="Data",
      *             allOf={
      *                 @OA\Schema(ref="#/components/schemas/Item"),
      *                 @OA\Schema(
