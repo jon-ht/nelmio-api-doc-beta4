@@ -28,8 +28,8 @@ class AuthController
      *     description="Credentials",
      *     @OA\JsonContent(
      *         type="object",
-     *         @OA\Property(property="_password", type="string"),
-     *         @OA\Property(property="_username", type="string")
+     *         @OA\Property(property="_password", type="string", description="password"),
+     *         @OA\Property(property="_username", type="string", description="user email")
      *     )
      * )
      *
